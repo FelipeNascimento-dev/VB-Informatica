@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+footer {
+    background-color: #1028b3;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+footer img{
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: 2px;
+}
+
+#footer_items {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8% 24px 8%;
+    align-items: center;
+}
+
+#copyright {
+    color: #fff;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 600px) {
+    #footer_items {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styless.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>VB Informática - Assistência técnica</title>
+    <link rel="icon" href="./logoVB.png">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <a href="#home" id="nav_logo">
+                <img src="./LOGO_VB.png"  id="nav_logo">
+            </a>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Inicio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#services">Serviços</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#about">Sobre nós</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="contact.html">Contato</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                <a href="https://wa.me/5511951018967" target="_blank" style="text-decoration: none; color: #1d1d1d;">
+                    Fale Conosco 
+                </a>
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Inicio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#services">Serviços</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#about">Sobre nós</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="contact.html">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+
+            <div class="shape"></div>
+
+            <div id="cta">
+                <h1 class="title">
+                    O melhor serviço técnico de informática de 
+                    <span>São Paulo</span>
+                </h1>  
+                
+                <p class="description">
+                    Soluções rápidas, eficientes e confiáveis para o seu notebook.
+                    <br>
+                    Manutenção, upgrades e reparos com qualidade e transparência!
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="services.html" class="btn-default">
+                        Conheça nossos serviços
+                    </a>
+
+                    <a href="tel:+5511951018967" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (11) 95101-8967
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="https://wa.me/5511951018967" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/assistencia_vb_informatica/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                </div>
+            </div>
+
+            <div id="banner">
+                <img class="banner-img" src="src/images/principal/PAINEL.png" alt="">
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Nossos serviços</h2>
+            <h3 class="section-subtitle">Nossos serviços exclusivos</h3>
+
+            <div id="services">
+                <div class="service">
+                    <img src="./src/images/services/VENDAS.png" class="service-image" alt="troca de memoria">
+                    <h3 class="service-title">
+                        Vendas
+                    </h3>
+                    
+                    <span class="service-description">
+                        Realizamos a venda de peças e acessórios para computadores.
+                    </span>
+                </div>
+
+                <div class="service">
+                    <img src="./src/images/services/ASSISTENCIA1.png" class="service-image" alt="troca de memoria">
+                    <h3 class="service-title">
+                        Assistência técnica
+                    </h3>
+                    
+                    <span class="service-description">
+                        Reparos e manutenção de notebooks e desktops, com os melhores profissionais da região.
+                    </span>
+                </div>
+
+                <div class="service">
+                    <img src="./src/images/services/UPGRADE1.png" class="service-image" alt="troca de memoria">
+                    <h3 class="service-title">
+                        Upgrade
+                    </h3>
+                    
+                    <span class="service-description">
+                        Melhoramos a performance do seu equipamento de acordo com suas necessidades.
+                    </span>
+                </div>
+
+                <div class="service">
+                    <img src="./src/images/services/INSTALACAO1.png" class="service-image" alt="troca de memoria">
+                    <h3 class="service-title">
+                        Instalação de Software
+                    </h3>
+                    
+                    <span class="service-description">
+                        Instalamos  e configuramos softwares de acordo com a necessidade do cliente.
+                    </span>
+                </div>
+
+                <div id="services">
+                    <div class="service">
+                        <img src="./src/images/services/RECUPERACAO DE DADOS1.png" class="service-image" alt="troca de memoria">
+                        <h3 class="service-title">
+                            Recuperação de Dados
+                        </h3>
+                        
+                        <span class="service-description">
+                            Recuperamos HD's e SSD's com problemas de leitura.
+                        </span>
+                    </div>
+    
+                    <div class="service">
+                        <img src="./src/images/services/VIRUS1.png" class="service-image" alt="troca de memoria">
+                        <h3 class="service-title">
+                            Remoção de Vírus
+                        </h3>
+                        
+                        <span class="service-description">
+                            Removemos vírus e malwares que podem impedir o funcionamento da sua maquina.
+                        </span>
+                    </div>
+    
+                    <div class="service">
+                        <img src="./src/images/services/DOMICILIAR.png" class="service-image" alt="troca de memoria">
+                        <h3 class="service-title">
+                            Visita Domiciliar
+                        </h3>
+                        
+                        <span class="service-description">
+                            Temos tecnicos treinados e capacitados para realizar manutenção em sua residencia.
+                        </span>
+                    </div>
+    
+                    <div class="service">
+                        <img src="./src/images/services/LIMPEZA1.png" class="service-image" alt="troca de memoria">
+                        <h3 class="service-title">
+                            Limpeza
+                        </h3>
+                        
+                        <span class="service-description">
+                            Garantimos a limpeza do seu equipamento como cortesia.
+                        </span>
+                    </div>
+            </div>
+        </section>
+
+        <section>
+            <div id="about">
+                <h2 class="section-title">Sobre nós</h2>
+                <h3 class="section-subtitle">Quem somos</h3>
+
+                    <div id="about-container">
+                        <img src="src/images/manutencao.jpg" alt="foto de manutencao" class="about-image">
+
+                        <p class="about-description">Há mais de 5 anos, somos referência em manutenção de notebooks, oferecendo soluções rápidas, eficientes e de qualidade para nossos clientes. 
+
+                            Nosso compromisso é com a excelência e a transparência! Diagnóstico preciso, atendimento personalizado e peças de qualidade são os pilares que fazem da nossa empresa a escolha certa para quem busca confiança e profissionalismo.
+                            
+                            Seja para consertar um problema ou melhorar o desempenho do seu notebook, estamos prontos para ajudar. 
+                            
+                            <br>Conte com a gente! 🚀💻</p>
+
+                    </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="src/images/wave.svg">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy2025 VB - Informática	
+            </span>
+
+            <div class="social-media-buttons">
+
+                <a href="https://wa.me/5511951018967" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="https://www.instagram.com/assistencia_vb_informatica/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="mailto:assistencia.vbinformatica@gmail.com" target="_blank">
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+
+            </div>
+        </div>
+    </footer>
+    
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
