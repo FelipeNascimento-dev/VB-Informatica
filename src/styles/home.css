@@ -36,6 +36,10 @@
     color: #1d1d1d;
 }
 
+#cta_buttons a:hover{
+    transform: scale(1.04);
+}
+
 #phone_button button{
     box-shadow: none;
 }

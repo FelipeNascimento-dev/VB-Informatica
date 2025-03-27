@@ -44,6 +44,10 @@ header {
     display: none;
 }
 
+.btn-default:hover{
+    transform: scale(1.04);
+}
+
 #mobile_menu{
     display: none;
 }
